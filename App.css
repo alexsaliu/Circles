@@ -1,0 +1,89 @@
+.container {
+  height: 500px;
+  width:300px;
+  background: lightblue;
+}
+
+.show {
+  background: lightgreen;
+}
+
+.hide {
+  background: #ffa6a6;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.center {
+  background: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.node {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: green; 
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.node-center {
+  background: red;
+  border-radius: 50%;
+  height:5px;
+  width:5px;
+}
+
+.inputs {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: lightgrey;
+    padding: 10px;
+    width: 80%;
+}
+
+input {
+  width:80px;
+}
+
+button {
+  position: absolute;
+    left: 0px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background: lightgreen;
+    font-weight: bold;
+    box-shadow: 1px 2px 3px grey;
+}
